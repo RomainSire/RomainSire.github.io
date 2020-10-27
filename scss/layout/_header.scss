@@ -6,8 +6,10 @@
   @include centerChilds;
   background: $color-bg;
   box-shadow: $shadow-light;
-  font-family: 'Squada One', cursive;
+  font-family: $fonts-title;
   font-size: 1.5rem;
+  background: $color-header;
+  z-index: 100;
 
   &__nav {
     @include centerChilds;

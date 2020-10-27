@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   background: $color-bg;
   color: $color-txt;
-  font-family: 'Roboto', sans-serif;
-  scroll-behavior: smooth;
+  font-family: $fonts-body;
 }
 a {
   text-decoration: none;
@@ -19,4 +21,6 @@ h2 {
 }
 h3 {
   text-align: center;
+  font-size: 2rem;
+  font-family: $fonts-title;
 }

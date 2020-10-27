@@ -110,11 +110,14 @@ textarea {
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #fcfcfc;
   color: #444;
   font-family: "Roboto", sans-serif;
-  scroll-behavior: smooth;
 }
 
 a {
@@ -132,6 +135,8 @@ h2 {
 
 h3 {
   text-align: center;
+  font-size: 2rem;
+  font-family: "Squada One", cursive;
 }
 
 .header {
@@ -146,6 +151,8 @@ h3 {
   box-shadow: 0 0 10px #ccc;
   font-family: "Squada One", cursive;
   font-size: 1.5rem;
+  background: #eaeaea;
+  z-index: 100;
 }
 .header__nav {
   display: flex;
@@ -183,6 +190,55 @@ h3 {
 }
 .presentation__text {
   text-align: center;
+}
+
+.work {
+  padding-top: 6rem;
+}
+.work__wrapper {
+  padding: 0 2em;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.work__card {
+  width: 350px;
+  margin: 1em;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 5px;
+  transition: transform 300ms;
+}
+.work__card:hover {
+  transform: scale(1.02);
+}
+.work__card__title {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 1em 0;
+}
+.work__card__image {
+  width: 100%;
+  border-top: 1px solid #888;
+  border-bottom: 1px solid #888;
+}
+.work__card__description {
+  text-align: justify;
+  padding: 0 5%;
+}
+.work__card__btn {
+  padding: 0 5%;
+  text-align: right;
+  margin-bottom: 1.5em;
+}
+.work__card__btn a {
+  padding: 0.5em 1.5em;
+  background: #c5e3cf;
+  transition: background-color 300ms;
+}
+.work__card__btn a:hover {
+  background: #80c296;
 }
 
 /*# sourceMappingURL=style.css.map */

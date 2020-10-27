@@ -11,9 +11,9 @@
   <!-- HEADER -->
   <header class="header">
     <nav class="header__nav">
-      <a class="header__item" href="#work">Work</a>
+      <a class="header__item" href="#work">Works</a>
       <a class="header__item" href="#presentation" aria-label="page d'accueil">
-        <img src="./img/romain-small.png" alt="Illustration de Romain">
+        <img src="./img/romain-small.png" alt="Illustration of Romain">
       </a>
       <a class="header__item" href="#contact">Contact</a>
     </nav>
@@ -22,7 +22,7 @@
   <!-- PRESENTATION -->
   <section id="presentation" class="presentation">
     <div>
-      <img class="presentation__image" src="./img/romain.png" alt="Illustration de Romain">
+      <img class="presentation__image" src="./img/romain.png" alt="Illustration of Romain">
     </div>
     <div class="presentation__text">
       <h1 class="presentation__title">Hi, my name is Romain.</h1>
@@ -32,10 +32,27 @@
 
   <!-- WORK -->
   <section id="work" class="work">
-    <h3 class="work__title">Work</h3>
-    <article class="work__card">
-      <img src="" alt="">
-    </article>
+    <h3 class="work__title">Works</h3>
+    <div class="work__wrapper">
+      <!-- Social Network -->
+      <article class="work__card">
+        <h4 class="work__card__title">Social Network</h4>
+        <img class="work__card__image" src="./img/preview/socialNetwork.png" alt="Screenshot of the social network application">
+        <p class="work__card__description">Fullstack development of a social network for a fictive company. Angular is used for the frontend part, Node.js with the framework Express for the backend. Data is stored in a MySQL database. The main features are user's account, list an research of users, publication of text and/or pictures with resize on the go, like/dislike a publication, comments system, notifications system, moderation with an admin special account.</p>
+        <p class="work__card__btn">
+          <a href="https://youtu.be/yH5dlMfwwHE" target="_blank" rel="noopener noreferrer">Check out the demo</a>
+        </p>
+      </article>
+      <!-- Piquante -->
+      <article class="work__card">
+        <h4 class="work__card__title">Piquante</h4>
+        <img class="work__card__image" src="./img/preview/piquante.png" alt="Screenshot of the 'piquante' application">
+        <p class="work__card__description">Backend development of a sauces ranking application. This REST API is developped with Node.js and the Express Framework, and the data is stored in a MongoDB database. A user can add a new sauce, and like or dislike other user's sauces. A special attention is given to security to make it as safe as possible. </p>
+        <p class="work__card__btn">
+          <a href="https://youtu.be/yH5dlMfwwHE" target="_blank" rel="noopener noreferrer">Check out the demo</a>
+        </p>
+      </article>
+    </div>
   </section>
 
   <!-- CONTACT -->
