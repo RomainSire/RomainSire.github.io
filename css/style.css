@@ -113,11 +113,46 @@ textarea {
 body {
   background: #fcfcfc;
   color: #444;
+  font-family: "Roboto", sans-serif;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fcfcfc;
+  box-shadow: 0 0 10px #ccc;
+  font-family: "Squada One", cursive;
+  font-size: 1.5rem;
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.header__item {
+  margin: 0 1em;
+  transition: transform 300ms;
+}
+.header__item:hover {
+  transform: scale(1.05) translateY(0.15em);
+}
+.header__item img {
+  border-radius: 50%;
+}
+
+.presentation {
+  margin-top: 8rem;
 }
 
 /*# sourceMappingURL=style.css.map */

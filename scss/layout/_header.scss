@@ -1,0 +1,27 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: $header-height;
+  @include centerChilds;
+  background: $color-bg;
+  box-shadow: $shadow;
+  font-family: 'Squada One', cursive;
+  font-size: 1.5rem;
+
+  &__nav {
+    @include centerChilds;
+    margin: auto;
+  }
+
+  &__item {
+    margin: 0 1em;
+    transition: transform 300ms;
+    &:hover {
+      transform: scale(1.05) translateY(0.15em);
+    }
+    img {
+      border-radius: 50%;
+    }
+  }
+}
