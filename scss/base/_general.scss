@@ -5,8 +5,18 @@ body {
   background: $color-bg;
   color: $color-txt;
   font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
 }
 a {
   text-decoration: none;
   color: inherit;
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  text-align: center;
 }

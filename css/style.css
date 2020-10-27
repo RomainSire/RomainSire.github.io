@@ -114,11 +114,24 @@ body {
   background: #fcfcfc;
   color: #444;
   font-family: "Roboto", sans-serif;
+  scroll-behavior: smooth;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  text-align: center;
 }
 
 .header {
@@ -152,7 +165,24 @@ a {
 }
 
 .presentation {
-  margin-top: 8rem;
+  padding-top: 8rem;
+  height: 100vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.presentation__image {
+  display: block;
+  width: 80%;
+  max-width: 450px;
+  margin: auto;
+  border-radius: 50%;
+  box-shadow: 0 0 15px #888;
+  border: 3px solid #fff;
+}
+.presentation__text {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
