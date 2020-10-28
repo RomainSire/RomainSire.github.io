@@ -241,4 +241,30 @@ h3 {
   background: #80c296;
 }
 
+.contact {
+  padding-top: 6rem;
+  height: 100vh;
+}
+.contact__wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  max-width: 300px;
+  margin: auto;
+}
+.contact__item {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  margin: 1em;
+  transition: all 300ms;
+}
+.contact__item:hover {
+  transform: scale(1.02);
+  color: #5eb17a;
+}
+.contact__item img {
+  width: 50px;
+  margin-right: 1em;
+}
+
 /*# sourceMappingURL=style.css.map */
