@@ -5,11 +5,15 @@
   height: $header-height;
   @include centerChilds;
   background: $color-bg;
-  box-shadow: $shadow-light;
   font-family: $fonts-title;
   font-size: 1.5rem;
-  background: $color-header;
   z-index: 100;
+  transition: all 500ms;
+
+  &--scrolledDisplay {
+    background: $color-header;
+    box-shadow: $shadow-light;
+  }
 
   &__nav {
     @include centerChilds;
@@ -22,8 +26,18 @@
     &:hover {
       transform: scale(1.05) translateY(0.15em);
     }
-    img {
-      border-radius: 50%;
+  }
+
+  &__image {
+    border-radius: 50%;
+    width: 75px;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: all 300ms;
+
+    &--scrolledDisplay {
+      opacity: 1;
+      transform: scaleX(1);
     }
   }
 }
