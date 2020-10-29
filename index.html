@@ -3,7 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Title, description, meta -->
   <title>Romain Siré: Portfolio</title>
+  <meta name="description" content="Hi, I'm Romain, a world wide web developer. I like Node.js and Angular. Welcome to my portfolio!">
+  <meta name="robots" content="index, follow">
+  <meta name="twitter:card" content="Hi, I'm Romain, a world wide web developer. I like Node.js and Angular. Welcome to my portfolio!">
+  <meta property="og:title" content="Romain Siré: Portfolio" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://romainsire.github.io/" />
+  <meta property="og:image" content="https://romainsire.github.io/img/romain.png" />
+  <meta property="og:description" content="Hi, I'm Romain, a world wide web developer. I like Node.js and Angular. Welcome to my portfolio!" />
+
   <!-- Loading styles -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Squada+One&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="./css/style.css">
@@ -16,7 +26,7 @@
     <nav class="header__nav">
       <a class="header__item" href="#work">Works</a>
       <a class="header__item" href="#presentation" aria-label="page d'accueil">
-        <img id="header__image" class="header__image" src="./img/romain-small.png" alt="Illustration of Romain">
+        <img id="header__image" class="header__image" src="./img/romain-small.png" alt="Small illustration of Romain">
       </a>
       <a class="header__item" href="#contact">Contact</a>
     </nav>
@@ -29,7 +39,7 @@
     </div>
     <div class="presentation__text">
       <h1 class="presentation__title">Hi, my name is Romain.</h1>
-      <h2 class="presentation__subtitle">I'm a web developer in France.</h2>
+      <h2 class="presentation__subtitle">I'm a world wide web developper!</h2>
     </div>
   </section>
 
@@ -43,7 +53,7 @@
         <img class="work__card__image" src="./img/preview/socialNetwork.png" alt="Screenshot of the social network application">
         <p class="work__card__description">Fullstack development of a social network for a fictive company. Angular is used for the frontend part, Node.js with the framework Express for the backend. Data is stored in a MySQL database. The main features are user's account, list an research of users, publication of text and/or pictures with resize on the go, like/dislike a publication, comments system, notifications system, moderation with an admin special account.</p>
         <p class="work__card__btn">
-          <a href="https://youtu.be/yH5dlMfwwHE" target="_blank" rel="noopener noreferrer">Check out the demo</a>
+          <a href="https://youtu.be/WLgvV_l-GcI" target="_blank" rel="noopener noreferrer">Check out the demo</a>
         </p>
       </article>
       <!-- Piquante -->
@@ -52,45 +62,28 @@
         <img class="work__card__image" src="./img/preview/piquante.png" alt="Screenshot of the 'piquante' application">
         <p class="work__card__description">Backend development of a sauces ranking application. This REST API is developped with Node.js and the Express Framework, and the data is stored in a MongoDB database. A user can add a new sauce, and like or dislike other user's sauces. A special attention is given to security to make it as safe as possible. </p>
         <p class="work__card__btn">
-          <a href="https://youtu.be/yH5dlMfwwHE" target="_blank" rel="noopener noreferrer">Check out the demo</a>
+          <a href="https://youtu.be/UsfzItXufjI" target="_blank" rel="noopener noreferrer">Check out the demo</a>
         </p>
       </article>
-      <!-- Social Network -->
+      <!-- Oricam -->
       <article class="work__card">
-        <h4 class="work__card__title">Social Network</h4>
-        <img class="work__card__image" src="./img/preview/socialNetwork.png" alt="Screenshot of the social network application">
-        <p class="work__card__description">Fullstack development of a social network for a fictive company. Angular is used for the frontend part, Node.js with the framework Express for the backend. Data is stored in a MySQL database. The main features are user's account, list an research of users, publication of text and/or pictures with resize on the go, like/dislike a publication, comments system, notifications system, moderation with an admin special account.</p>
+        <h4 class="work__card__title">Oricam</h4>
+        <img class="work__card__image" src="./img/preview/oricam.png" alt="Screenshot of the 'oricam' application">
+        <p class="work__card__description">Frontend development of a e-commerce website for a vintage camera company. The backend API was already coded with Node.js, I developped the frontend with Vanilla JavaScript (no framework). The main features are fetch all the products details from the backend and display it to the user, add one or several products to the cart, ask the user his contact details, and then give the order id to the client.</p>
         <p class="work__card__btn">
-          <a href="https://youtu.be/yH5dlMfwwHE" target="_blank" rel="noopener noreferrer">Check out the demo</a>
+          <a href="https://youtu.be/k5JQiV9_muU" target="_blank" rel="noopener noreferrer">Check out the demo</a>
         </p>
       </article>
-      <!-- Piquante -->
+      <!-- La chouette agence -->
       <article class="work__card">
-        <h4 class="work__card__title">Piquante</h4>
-        <img class="work__card__image" src="./img/preview/piquante.png" alt="Screenshot of the 'piquante' application">
-        <p class="work__card__description">Backend development of a sauces ranking application. This REST API is developped with Node.js and the Express Framework, and the data is stored in a MongoDB database. A user can add a new sauce, and like or dislike other user's sauces. A special attention is given to security to make it as safe as possible. </p>
+        <h4 class="work__card__title">La chouette agence</h4>
+        <img class="work__card__image" src="./img/preview/chouetteAgence.png" alt="Screenshot of the 'La Chouette Agence' website">
+        <p class="work__card__description">SEO optimization of an already existing website. Keword were analysed to target the most efficient words. The modifications performed where: Natural SEO (title, meta, semantic tags, url), Performances to finally reach 99% on GTMetrix (images, external ressources loading, cache), Accessibility (contrast, aria labels, forms).</p>
         <p class="work__card__btn">
-          <a href="https://youtu.be/yH5dlMfwwHE" target="_blank" rel="noopener noreferrer">Check out the demo</a>
+          <a href="https://chouetteagence-optimised.web.app/" target="_blank" rel="noopener noreferrer">Check out the demo</a>
         </p>
       </article>
-      <!-- Social Network -->
-      <article class="work__card">
-        <h4 class="work__card__title">Social Network</h4>
-        <img class="work__card__image" src="./img/preview/socialNetwork.png" alt="Screenshot of the social network application">
-        <p class="work__card__description">Fullstack development of a social network for a fictive company. Angular is used for the frontend part, Node.js with the framework Express for the backend. Data is stored in a MySQL database. The main features are user's account, list an research of users, publication of text and/or pictures with resize on the go, like/dislike a publication, comments system, notifications system, moderation with an admin special account.</p>
-        <p class="work__card__btn">
-          <a href="https://youtu.be/yH5dlMfwwHE" target="_blank" rel="noopener noreferrer">Check out the demo</a>
-        </p>
-      </article>
-      <!-- Piquante -->
-      <article class="work__card">
-        <h4 class="work__card__title">Piquante</h4>
-        <img class="work__card__image" src="./img/preview/piquante.png" alt="Screenshot of the 'piquante' application">
-        <p class="work__card__description">Backend development of a sauces ranking application. This REST API is developped with Node.js and the Express Framework, and the data is stored in a MongoDB database. A user can add a new sauce, and like or dislike other user's sauces. A special attention is given to security to make it as safe as possible. </p>
-        <p class="work__card__btn">
-          <a href="https://youtu.be/yH5dlMfwwHE" target="_blank" rel="noopener noreferrer">Check out the demo</a>
-        </p>
-      </article>
+      
     </div>
   </section>
 

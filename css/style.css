@@ -211,6 +211,8 @@ h3 {
   flex-flow: row wrap;
   justify-content: space-around;
   align-items: flex-start;
+  max-width: 1500px;
+  margin: auto;
 }
 .work__card {
   width: 350px;
@@ -234,13 +236,12 @@ h3 {
   border-bottom: 1px solid #888;
 }
 .work__card__description {
-  text-align: justify;
   padding: 0 5%;
 }
 .work__card__btn {
   padding: 0 5%;
   text-align: right;
-  margin-bottom: 1.5em;
+  margin: 1.5em 0;
 }
 .work__card__btn a {
   padding: 0.5em 1.5em;

@@ -6,6 +6,8 @@
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: flex-start;
+    max-width: 1500px;
+    margin: auto;
   }
   &__card {
     width: 350px;
@@ -28,13 +30,12 @@
       border-bottom: 1px solid #888;
     }
     &__description {
-      text-align: justify;
       padding: 0 5%;
     }
     &__btn {
       padding: 0 5%;
       text-align: right;
-      margin-bottom: 1.5em;
+      margin: 1.5em 0;
       a {
         padding: 0.5em 1.5em;
         background: lighten($color-emph, 30%);
