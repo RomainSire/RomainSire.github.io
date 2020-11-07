@@ -1,5 +1,3 @@
-# :warning: Work in progress :warning:
-
 # Mon nouveau portfolio.
 J'ai voulu faire quelque chose de très simple qui présente quelques unes de mes réalisations, et mes coordonnées.  
 
