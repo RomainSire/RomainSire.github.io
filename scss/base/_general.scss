@@ -25,5 +25,5 @@ h3 {
   font-family: $fonts-title;
 }
 strong {
-  color: $color-emph;
+  color: darken($color-sec, 11%);
 }
