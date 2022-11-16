@@ -16,7 +16,7 @@
   <meta property="og:description" content="Hi, I'm Romain, a world wide web developer. I like Node.js and Angular. Welcome to my portfolio!" />
 
   <!-- Loading styles -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Squada+One&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Squada+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <!-- Loading scripts -->
   <script src="./js/script.js" defer></script>
@@ -48,11 +48,20 @@
   <section id="work" class="work">
     <h3 class="work__title">Works</h3>
     <div class="work__wrapper">
+      <!-- Thess Corp -->
+      <article class="work__card">
+        <h4 class="work__card__title">Thess</h4>
+        <img class="work__card__image" src="./img/preview/thess.jpg" alt="Screenshot of Thess application">
+        <p class="work__card__description">Since the begining of 2021, I'm part of the front-end team working full time on Thess App: a medical telemonitoring application. The app uses a custom <strong>handmade JavaScript framework</strong> (bundled by <strong>Webpack</strong>) that we migrated to <strong>TypeScript</strong>. We also migrated the view's rendering system to <strong>JSX</strong> but still with our own custom runtime. That means it doesn't uses React, so it's lighter and more flexible to our needs. I learned A LOT adding new features, and especially maintaining the framework.</p>
+        <p class="work__card__btn">
+          <a href="https://www.thess-corp.fr" target="_blank" rel="noopener noreferrer">Check the landing page</a>
+        </p>
+      </article>
       <!-- Social Network -->
       <article class="work__card">
         <h4 class="work__card__title">Social Network</h4>
         <img class="work__card__image" src="./img/preview/socialNetwork.png" alt="Screenshot of the social network application">
-        <p class="work__card__description">Fullstack development of a social network for a fictive company. <strong>Angular</strong> is used for the frontend part, <strong>Node.js</strong> with the framework Express for the backend. Data is stored in a <strong>MySQL</strong> database. The main features are user's account, list an research of users, publication of text and/or pictures with resize on the go, like/dislike a publication, comments system, notifications system, moderation with an admin special account.</p>
+        <p class="work__card__description">Fullstack development of a social network for a fictive company. <strong>Angular</strong> is used for the front-end part, <strong>Node.js</strong> with the framework Express for the back-end. Data is stored in a <strong>MySQL</strong> database. The main features are user's account, list an research of users, publication of text and/or pictures with resize on the go, like/dislike a publication, comments system, notifications system, moderation with an admin special account.</p>
         <p class="work__card__btn">
           <a href="https://youtu.be/WLgvV_l-GcI" target="_blank" rel="noopener noreferrer">Check out the video</a>
         </p>
@@ -61,7 +70,7 @@
       <article class="work__card">
         <h4 class="work__card__title">Piocheur de Bobines</h4>
         <img class="work__card__image" src="./img/preview/piocheurDeBobines.png" alt="Screenshot of the 'Piocheur de Bobines' application">
-        <p class="work__card__description">Frontend development of a cinema application. I used <strong>Angular</strong> to develop the frontend of this app, and the public database "The Movie Database" and its API for the backend. The user can see what are the trending movies, sort them by genre, search for a specific movie, and of course display the detail of a specific movie and its trailer. Very interesting and fun app' to code, and I learned a lot about <strong>Unit Testing</strong>! :)</p>
+        <p class="work__card__description">Front-end development of a cinema application. I used <strong>Angular</strong> to develop the front-end of this app, and the public database "The Movie Database" and its API for the back-end. The user can see what are the trending movies, sort them by genre, search for a specific movie, and of course display the detail of a specific movie and its trailer. Very interesting and fun app' to code, and I learned a lot about <strong>Unit Testing</strong>!</p>
         <p class="work__card__btn">
           <a href="https://piocheur-de-bobines.web.app/" target="_blank" rel="noopener noreferrer">Check out the app</a>
         </p>
@@ -70,7 +79,7 @@
       <article class="work__card">
         <h4 class="work__card__title">Crème Solaire ou Parapluie</h4>
         <img class="work__card__image" src="./img/preview/CremeSolaireOuParapluie.png" alt="Screenshot of the 'Crème solaire ou Parapluie' application">
-        <p class="work__card__description">Frontend development of a weather application. I wanted to learn how to use <strong>Vue.Js</strong>. It's a very simple app, but I still managed to plug a router, and a data store with Vuex (probably overkill, but I wanted to learn!). I used Google Places API to get the gps coordinates, and to update the background image, and then I used the OpenWeather API to get the weather data. <strong>NB:</strong> The app currently doesn't work because... I didn't want to pay to continue using Google API..!</p>
+        <p class="work__card__description">Front-end development of a weather application. I wanted to learn how to use <strong>Vue.Js</strong>. It's a very simple app, but I still managed to plug a router, and a data store with Vuex (probably VERY overkill, but I wanted to learn!). I used Google Places API to get the gps coordinates, and to update the background image, and then I used the OpenWeather API to get the weather data. <strong>NB:</strong> The app currently doesn't work because... Google API isn't free any more!</p>
         <p class="work__card__btn">
           <a href="https://github.com/RomainSire/Creme-Solaire-ou-Parapluie" target="_blank" rel="noopener noreferrer">Check out the code</a>
         </p>
@@ -79,7 +88,7 @@
       <article class="work__card">
         <h4 class="work__card__title">Piquante</h4>
         <img class="work__card__image" src="./img/preview/piquante.png" alt="Screenshot of the 'piquante' application">
-        <p class="work__card__description">Backend development of a sauces ranking application. This <strong>REST API</strong> is developped with <strong>Node.js</strong> and the Express Framework, and the data is stored in a <strong>MongoDB</strong> database. A user can add a new sauce, and like or dislike other user's sauces. A special attention is given to <strong>security</strong> to make it as safe as possible. </p>
+        <p class="work__card__description">Back-end development of a sauces ranking application. This <strong>REST API</strong> is developped with <strong>Node.js</strong> and the Express Framework, and the data is stored in a <strong>MongoDB</strong> database. A user can add a new sauce, and like or dislike other user's sauces. A special attention is given to <strong>security</strong> to make it as safe as possible. </p>
         <p class="work__card__btn">
           <a href="https://youtu.be/UsfzItXufjI" target="_blank" rel="noopener noreferrer">Check out the video</a>
         </p>
@@ -88,7 +97,7 @@
       <article class="work__card">
         <h4 class="work__card__title">Oricam</h4>
         <img class="work__card__image" src="./img/preview/oricam.png" alt="Screenshot of the 'oricam' application">
-        <p class="work__card__description">Frontend development of a e-commerce website for a vintage camera company. The backend API was already coded with Node.js, I developped the frontend with <strong>Vanilla JavaScript (no framework)</strong>. The main features are fetch all the products details from the backend and display it to the user, add one or several products to the cart, ask the user his contact details, and then give the order id to the client.</p>
+        <p class="work__card__description">Front-end development of a e-commerce website for a vintage camera company. The back-end API was already coded with Node.js, I developped the front-end with <strong>Vanilla JavaScript (no framework)</strong>. The main features are fetch all the products details from the back-end and display it to the user, add one or several products to the cart, ask the user his contact details, and then give the order id to the client.</p>
         <p class="work__card__btn">
           <a href="https://youtu.be/k5JQiV9_muU" target="_blank" rel="noopener noreferrer">Check out the video</a>
         </p>
@@ -97,7 +106,7 @@
       <article class="work__card">
         <h4 class="work__card__title">La chouette agence</h4>
         <img class="work__card__image" src="./img/preview/chouetteAgence.png" alt="Screenshot of the 'La Chouette Agence' website">
-        <p class="work__card__description"><strong>SEO optimization</strong> of an already existing website. Keword were analysed to target the most efficient words. The modifications performed where: Natural SEO (title, meta, semantic tags, url), Performances to finally reach 99% on GTMetrix (images, external ressources loading, cache), Accessibility (contrast, aria labels, forms).</p>
+        <p class="work__card__description"><strong>SEO optimization</strong> of an already existing website. Keywords were analysed to target the most efficient words. The modifications performed where: Natural SEO (title, meta, semantic tags, url), Performances to finally reach 99% on GTMetrix (images, external ressources loading, cache), Accessibility (contrast, aria labels, forms).</p>
         <p class="work__card__btn">
           <a href="https://chouetteagence-optimised.web.app/" target="_blank" rel="noopener noreferrer">Check out the website</a>
         </p>
@@ -120,7 +129,7 @@
           <a href="https://youtu.be/1R_INgZj97k" target="_blank" rel="noopener noreferrer">Check out the video</a>
         </p>
       </article>
-      
+
     </div>
   </section>
 
